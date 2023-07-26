@@ -1,5 +1,7 @@
-a=10
+a=$1
 
-if [ $a -gt 0];then
+if [ 2 -gt 2 ] ; then
   echo $a is greater than 0
+else
+echo not greaterthan 2
 fi
